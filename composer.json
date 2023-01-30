@@ -1,0 +1,22 @@
+{
+  "name": "appiersign/hubtel-sms",
+  "description": "API client that consumes Hubtel's SMS API",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Solomon APPIER-SIGN",
+      "email": "braasig@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.0",
+    "guzzlehttp/guzzle": "^7.0",
+    "ext-json": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "AppierSign\\HubtelSMS\\": "src/"
+    }
+  }
+}
